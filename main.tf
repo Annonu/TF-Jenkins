@@ -5,5 +5,5 @@ resource "aws_instance" "my_vm" {
  tags = {
    Name = var.name_tag,
  }
-}
+} 
 
