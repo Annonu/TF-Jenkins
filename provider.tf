@@ -7,7 +7,7 @@ terraform {
  }
 
  backend "s3" {
-   bucket = "tf-jenkins-state"
+   bucket = "tf-jenkins-state-ikalkoti"
    key    = "state"
    region = "us-east-1"
  }
